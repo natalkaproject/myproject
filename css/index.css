@@ -1,0 +1,31 @@
+:root {
+    --main-color: black;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+.small-logo {
+    width: 20%;
+}
+header .menu {
+    list-style-type: none;
+}
+header .menu a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+header .menu a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 610px) {
+    header nav {
+       display: flex;
+    }
+    header .menu {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+        align-items: center; 
+    }
+}
