@@ -1,5 +1,6 @@
 :root {
     --main-color: black;
+    --brand-color: white;
 }
 body {
     max-width: 980px;
@@ -14,10 +15,13 @@ body {
 header .list {
     list-style-type: none;
 }
-header .menu a {
+header .list a {
     text-decoration: none;
     color: var(--main-color);
 
+}
+header .list a:hover {
+    font-weight: bunderline;
 }
 @media (min-width: 610px) {
     header nav {
@@ -26,9 +30,65 @@ header .menu a {
     header .list {
         display: flex;
         justify-content: space-around;
+        flex: 1;
         align-items: left; 
         font-family: sans-serif;
-        font-size: 15px;
+        font-size: 12px;
         line-height: 30px;
+        width: 350px;
     }
+}
+header .banner {
+    background-image: url(../img/main-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+header .banner h1 {
+    color: var(--brand-color);
+    font-family: sans-serif;
+    font-size: 70px;
+    padding-top: 90px;
+}
+header .banner h3 {
+    color: var(--brand-color);
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.first-button {
+    display: inline-block;
+    flex-basis: content;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid rgba(80, 241, 204, 2);
+    border-radius: 30px;
+    padding: 15px 20px;
+    text-decoration: none;
+    background: rgb(80, 241, 204, 2);
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.first-button:hover {
+    background-color: rgb(80, 241, 204, 2);
+    cursor: pointer;
+}
+.second-button {
+    display: inline-block;
+    flex-basis: content;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+.second-button:hover {
+    background-color: white;
+    cursor: pointer;
 }
