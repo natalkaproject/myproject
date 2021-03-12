@@ -21,7 +21,7 @@ header .list a {
 
 }
 header .list a:hover {
-    font-weight: bunderline;
+    font-weight: underline;
 }
 @media (min-width: 610px) {
     header nav {
