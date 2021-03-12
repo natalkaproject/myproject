@@ -14,9 +14,6 @@ body {
 header .list {
     list-style-type: none;
 }
-header .list a:hover {
-    
-}
 header .menu a {
     text-decoration: none;
     color: var(--main-color);
