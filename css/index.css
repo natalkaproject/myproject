@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --main-color: black;
     --brand-color: white;
 }
@@ -49,12 +49,16 @@ header .banner h1 {
     font-family: sans-serif;
     font-size: 70px;
     padding-top: 90px;
+    margin: 15px;
+    margin-bottom: 15px;
 }
 header .banner h3 {
     color: var(--brand-color);
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 19px;
     padding-top: 10px;
+    margin: 15px;
+    margin-top: 20px;
 }
 .first-button {
     flex-basis: content;
@@ -68,15 +72,17 @@ header .banner h3 {
     color: black;
     font-weight: 500;
     text-decoration: none;
+    margin: 10px;
 }
 .first-button:hover {
-    background-color: rgb(80, 241, 204, 2);
+    background-color: rgb(100, 281, 234, 2);
     cursor: pointer;
 }
 .second-button {
     flex-basis: content;
     text-align: center;
     vertical-align: top;
+    margin: 10px;
     border: 2px solid white;
     border-radius: 30px;
     padding: 15px 20px;
@@ -89,4 +95,6 @@ header .banner h3 {
 .second-button:hover {
     background-color: white;
     cursor: pointer;
+    color: black;
 }
+*/

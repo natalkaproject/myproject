@@ -4,13 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Event Venue</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css">        
     </head>
     <body>
-        <header id="home">
-            <nav>
+        <header id="home" class="container" >
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid">
+                    <img class="small-logo" src="img/logo-small.jpg" alt="Small Logo">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+             <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+                <a class="nav-link" href="#halls">Halls for rent</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+                <a class="nav-link" href="#contacts">Contacts</a>
+            </div>
+            </div>
+            </div>
+            </nav>
+            <!--<nav>
                 <div class="logo">
-                    <img class="small-logo" src="img/logo.svg" alt="Small Logo">
+                    <img class="small-logo" src="img/logo-small.jpg" alt="Small Logo">
                 </div>
                 <div class="menu">
                     <ul class="list">
@@ -28,7 +45,7 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </nav>-->
             <div class="banner">
                 <h1>Top Event</h1>
                 <h3>Our unique venues for your unforgettable events in the center of NY</h3>
@@ -146,5 +163,6 @@
                 </form>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
 </html>
