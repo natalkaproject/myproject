@@ -9,15 +9,15 @@
     </head>
     <body>
         <header id="home" class="container" >
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fw-bold">
                 <div class="container-fluid">
                     <img class="small-logo" src="img/logo-small.jpg" alt="Small Logo">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#about">About</a>
+             <div class="navbar-nav"  >
+                <a class="nav-link" href="#banner">About</a>
                 <a class="nav-link" href="#halls">Halls for rent</a>
                 <a class="nav-link" href="#testimonials">Testimonials</a>
                 <a class="nav-link" href="#contacts">Contacts</a>
@@ -46,7 +46,7 @@
                     </ul>
                 </div>
             </nav>-->
-            <div class="banner">
+            <div class="banner" id="banner">
                 <h1>Top Event</h1>
                 <h3>Our unique venues for your unforgettable events in the center of NY</h3>
                 <nav>
@@ -86,8 +86,8 @@
                     <img src="img/about-us-picture.png" alt="About us photo">
                 </article>
             </div>
-            <div id="halls">
-                <article>
+            <div class="premises-photos" id="halls">
+                <article class="space-photo">
                     <img src="img/space-photo.png" alt="Space photo">
                     <h3>Space</h3>
                     <p>Capacity up to 100 people.</p>
@@ -95,7 +95,7 @@
                         <a href="#contacts">Book this hall →</a>
                     </p>
                 </article>
-                <article>
+                <article class="majestic-photo">
                     <img src="img/majestic-photo.png" alt="Majestic photo">
                     <h3>Majestic</h3>
                     <p>Capacity up to 150 people.</p>
@@ -103,7 +103,7 @@
                         <a href="#contacts">Book this hall →</a>
                     </p>
                 </article>
-                <article>
+                <article class="business-photo">
                     <img src="img/business-photo.png" alt="Business photo">
                     <h3>Business</h3>
                     <p>Capacity up to 80 people.</p>
@@ -115,11 +115,37 @@
             <div id="testimonials">
                 <h3>What Our Clients Say</h3>
                 <p>We were pleased to provide a venue for each of our clients</p>
-                <article>
-                    <img src="img/john-adams.png" alt="John Adams">
-                    <h2>John Adams</h2>
-                    <p>Many thanks to Top Event for organizing the conference. Our compqny held a big event. Important clients were supposed to come, so we needed a comprehensive approach. Top Event really helped us. A cavernous hall, all the necessary equipment for presentation, they had everything! The conference was successful, primarily due to the Top Event's efforts!</p>
-                </article>
+            </div>
+            <div id="carouselTestemonials" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselTestemonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselTestemonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselTestemonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-first-item active">
+                    <img src="img/john-adams.png" class="d-block w-100" alt="John Adams">
+                        <h3>John Adams</h3>
+                            <p>Many thanks to Top Event for organizing the conference. Our compqny held a big event. Important clients 
+                        were supposed to come, so we needed a comprehensive approach. Top Event really helped us. A cavernous hall, 
+                        all the necessary equipment for presentation, they had everything! The conference was successful, primarily 
+                        due to the Top Event's efforts!</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/marilyn-houston.png" class="d-block w-100" alt="Marilyn Houston">
+                </div>
+                <div class="carousel-item">
+                <img src="img/lindsey-wilmore.png" class="d-block w-100" alt="Lindsey Wilmor">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestemonials"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTestemonials"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
             </div>
             <div>
                 <h2>Your Event at the Highest Level</h2>

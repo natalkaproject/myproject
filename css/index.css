@@ -69,7 +69,7 @@ header .banner h3 {
     padding: 15px 20px;
     text-decoration: none;
     background: rgb(80, 241, 204, 2);
-    color: black;
+    color: var(--main-color);
     font-weight: 500;
     text-decoration: none;
     margin: 10px;
@@ -95,7 +95,7 @@ header .banner h3 {
 .second-button:hover {
     background-color: white;
     cursor: pointer;
-    color: black;
+    color: var(--main-color);
 }
 main {
     font-family: sans-serif;
@@ -158,12 +158,103 @@ main {
     grid-template-columns: 1fr 1.4fr;
     grid-gap: 20px;
     margin: 25px;
-    margin-right: 0px; 
+    margin-right: 0px;
+    margin-left: 0px; 
 }
 .text-block h2 {
-    color: #000;
+    color: var(--main-color);
     margin-bottom: 10px;
 }
 .about img {
     width: 100%;
+}
+.premises-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-bottom: 150px;
+}
+.premises-photos img {
+    width: 100%;
+    height: 100%;
+}
+.space-photo {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    color: var(--main-color);
+}
+.space-photo h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.space-photo p {
+color: #707070;
+}
+.space-photo a {
+    text-decoration: none;
+    color: #000;
+}
+.space-photo a:hover {
+    text-decoration: underline;
+}
+.majestic-photo {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    color: var(--main-color);
+}
+.majestic-photo h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.majestic-photo p {
+color: #707070;
+}
+.majestic-photo a {
+    text-decoration: none;
+    color: #000;
+}
+.majestic-photo a:hover {
+    text-decoration: underline;
+}
+.business-photo {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    color: var(--main-color);
+}
+.business-photo h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.business-photo p {
+color: #707070;
+}
+.business-photo a {
+    text-decoration: none;
+    color: #000;
+}
+.business-photo a:hover {
+    text-decoration: underline;
+}
+
+
+.carousel-first-item img {
+    border-radius: 50%;
+    width: 20px;
+}
+.carousel-first-item {
+    
+}
+
+
+
+#testimonials h3 {
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+#testimonials p {
+    text-align: center;
 }
