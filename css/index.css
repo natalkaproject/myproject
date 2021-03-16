@@ -8,38 +8,6 @@ body {
     margin: auto;
     font-family: sans-serif; 
 }
-/*.logo {
-    width: 20%;
-}
-.small-logo {
-    width: 100%;
-}
-header .list {
-    list-style-type: none;
-}
-header .list a {
-    text-decoration: none;
-    color: var(--main-color);
-
-}
-header .list a:hover {
-    text-decoration: underline;
-}
-@media (min-width: 610px) {
-    header nav {
-       display: flex;
-    }
-    header .list {
-        display: flex;
-        justify-content: space-around;
-        flex: 1;
-        align-items: left; 
-        font-family: sans-serif;
-        font-size: 12px;
-        line-height: 30px;
-        width: 350px;
-    }
-} */
 header .banner {
     background-image: url(../img/main-photo.jpg);
     background-size: cover;
@@ -123,6 +91,7 @@ main {
 }
 .first-box {
     text-align: center;
+    font-size: 14px;
     width: 100%;
 }
 .first-box img {
@@ -136,6 +105,7 @@ main {
 .second-box {
     text-align: center;
     width: 100%;
+    font-size: 14px;
 }
 .second-box img {
     width: 60px;
@@ -148,6 +118,7 @@ main {
 .third-box{
     text-align: center;
     width: 100%;
+    font-size: 14px;
 }
 .third-box img {
     width: 60px;
@@ -176,7 +147,7 @@ main {
 }
 .premises-photos img {
     width: 100%;
-    height: 100%;
+    height: 60%;
 }
 .space-photo {
     text-align: center;
@@ -239,22 +210,24 @@ color: #707070;
     text-decoration: underline;
 }
 
-
-.carousel-first-item img {
-    border-radius: 50%;
-    width: 20px;
-}
-.carousel-first-item {
-    
-}
-
-
-
 #testimonials h3 {
     text-align: center;
     color: var(--main-color);
     font-weight: bold;
+    font-size: 50px;
 }
 #testimonials p {
     text-align: center;
 }
+.carousel-item {
+    text-align: center;
+    font-size: 9px;
+}
+
+.carousel-item img {
+    width: 20%!important;
+    border-width: 10px;
+    border-radius: 60%;
+}
+
+
