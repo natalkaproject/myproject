@@ -13,7 +13,6 @@ body {
     padding: 0px;
     padding-top: 35px;
 }
-
 .navbar-light .navbar-nav .nav-link {
     padding-left: 80px;
 }
@@ -304,6 +303,15 @@ footer {
     color: var(--brand-color);
     padding: 100px;
     font-size: 30px;
+}
+.first-sentense {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.second-sentense {
+    font-size: 20px;
+
 }
 .submit-box-botton {
     padding: 50px;
