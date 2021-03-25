@@ -5,7 +5,6 @@
      
 }
 body {
-    max-width: 980px;
     margin: auto;
     font-family: 'Open Sans', sans-serif; 
 }
@@ -20,7 +19,7 @@ header .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.01), 
     rgba(0, 0, 0, 0.55)),url(../img/main-photo.jpg);
     background-size: cover;
-    height: 500px; 
+    height: 800px; 
     padding-bottom: 100px;
 }
 
@@ -253,8 +252,8 @@ color: #707070;
     background-color: rgb(247, 247, 247);
 }
 .carousel-item img {
-    margin: 30px 30px 30px 400px;
-    width: 20%!important;
+    margin: 40px 10px 40px 550px;
+    width: 18%!important;
     border-radius: 60%;
 
 }
@@ -265,6 +264,8 @@ color: #707070;
 }
 .carousel-item p {
     font-size: 14px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 footer {
     display: grid;
@@ -274,7 +275,7 @@ footer {
 
 }
 .subsribe {
-    padding-left: 100px;
+    padding-left: 40px;
     color: #707070; 
 }
 .third-button {
@@ -293,19 +294,18 @@ footer {
 
 .submit-box {
     display: grid;
-    grid-template-columns: 65% 35%;
-    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
     margin-top: 100px;
     background-color: black;
     background-size: cover;
 }
 .submit-box-text {
     color: var(--brand-color);
-    padding: 100px;
+    padding: 30px;
     font-size: 30px;
 }
 .first-sentense {
-    font-size: 48px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 50px;
 }
@@ -314,13 +314,30 @@ footer {
 
 }
 .submit-box-botton {
-    padding: 50px;
+    padding: 90px;
+    padding-bottom: 80px;
 }
 
-footer {
-    margin-top: 100px;
-    margin-bottom: 100px;
+.submit {
+    flex-basis: content;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid rgba(80, 241, 204, 2);
+    border-radius: 30px;
+    padding: 5px 120px;
+    text-decoration: none;
+    background: rgb(80, 241, 204, 2);
+    color: var(--main-color);
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px;
 }
+.submit:hover {
+    background-color: rgb(120, 291, 254, 2);
+    cursor: pointer;
+    
+}
+ 
 .subsribe p {
     padding-left: 10px;
     color: var(--main-color);
@@ -329,7 +346,7 @@ footer {
     flex-basis: content;
     text-align: center;
     vertical-align: top;
-    border: 2px solid rgba(80, 241, 204, 2);
+    border: 1px solid rgba(80, 241, 204, 2);
     border-radius: 30px;
     padding: 5px 140px;
     text-decoration: none;
