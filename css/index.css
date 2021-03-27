@@ -166,13 +166,13 @@ main {
 .about img {
     width: 100%;
 }
-.premises-photos {
+.product-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     margin-bottom: 150px;
 }
-.premises-photos img {
+.product-list img {
     width: 100%;
     height: 60%;
 }
@@ -267,9 +267,59 @@ color: #707070;
     padding-left: 80px;
     padding-right: 80px;
 }
+
+.namebutton {
+    text-align: left;
+    vertical-align: top;
+    border: 0px rgb(61, 57, 57);
+    border-radius: 30px;
+    padding: 5px 50px;
+    background: rgb(61, 57, 57);
+    color: var(--main-color);
+    font-weight: 500;
+}
+.phone-number-button {
+    text-align: left;
+    vertical-align: top;
+    border: 0px rgb(61, 57, 57);
+    border-radius: 30px;
+    padding: 5px 50px;
+    background: rgb(61, 57, 57);
+    color: var(--main-color);
+    font-weight: 500;
+}
+.event-button {
+    text-align: left;
+    vertical-align: top;
+    border: 0px rgb(61, 57, 57);
+    border-radius: 30px;
+    padding: 5px 50px;
+    background:  rgb(61, 57, 57);
+    color: var(--main-color);
+    font-weight: 500;
+}
+.submit-button {
+    flex-basis: content;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid rgb(80, 241, 204, 2);
+    border-radius: 30px;
+    padding: 5px 120px;
+    text-decoration: none;
+    background: rgb(80, 241, 204, 2);
+    color: var(--main-color);
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.submit:hover {
+    background-color: rgb(120, 291, 254, 2);
+    cursor: pointer;
+    
+}
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.1fr 1fr;
     grid-gap: 5px;
     margin-bottom: 90px;
 
@@ -284,7 +334,7 @@ footer {
     vertical-align: top;
     border: 0px rgba(0, 0, 0, 0.12);
     border-radius: 30px;
-    padding: 5px 74px;
+    padding: 5px 60px;
     text-decoration: none;
     background: rgba(0, 0, 0, 0.12);
     font-weight: 500;
@@ -318,26 +368,6 @@ footer {
     padding-bottom: 80px;
 }
 
-.submit {
-    flex-basis: content;
-    text-align: center;
-    vertical-align: top;
-    border: 1px solid rgba(80, 241, 204, 2);
-    border-radius: 30px;
-    padding: 5px 120px;
-    text-decoration: none;
-    background: rgb(80, 241, 204, 2);
-    color: var(--main-color);
-    font-weight: 500;
-    text-decoration: none;
-    margin: 10px;
-}
-.submit:hover {
-    background-color: rgb(120, 291, 254, 2);
-    cursor: pointer;
-    
-}
- 
 .subsribe p {
     padding-left: 10px;
     color: var(--main-color);
@@ -348,7 +378,7 @@ footer {
     vertical-align: top;
     border: 1px solid rgba(80, 241, 204, 2);
     border-radius: 30px;
-    padding: 5px 140px;
+    padding: 5px 120px;
     text-decoration: none;
     background: rgb(80, 241, 204, 2);
     color: var(--main-color);
