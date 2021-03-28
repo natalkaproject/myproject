@@ -267,34 +267,39 @@ color: #707070;
     padding-left: 80px;
     padding-right: 80px;
 }
-
+input {
+    background-color: rgb(136, 128, 128);
+    border-color: rgb(136, 128, 128);
+}
+input .placeholder{
+    color: white;
+}
 .namebutton {
     text-align: left;
     vertical-align: top;
-    border: 0px rgb(61, 57, 57);
+    border: 0px rgb(136, 128, 128);
     border-radius: 30px;
     padding: 5px 50px;
-    background: rgb(61, 57, 57);
-    color: var(--main-color);
+    background: rgb(136, 128, 128);
     font-weight: 500;
 }
 .phone-number-button {
     text-align: left;
     vertical-align: top;
-    border: 0px rgb(61, 57, 57);
+    border: 0px rgb(136, 128, 128);
     border-radius: 30px;
     padding: 5px 50px;
-    background: rgb(61, 57, 57);
+    background: rgb(136, 128, 128);
     color: var(--main-color);
     font-weight: 500;
 }
 .event-button {
     text-align: left;
     vertical-align: top;
-    border: 0px rgb(61, 57, 57);
+    border: 0px rgb(136, 128, 128);
     border-radius: 30px;
     padding: 5px 50px;
-    background:  rgb(61, 57, 57);
+    background:  rgb(136, 128, 128);
     color: var(--main-color);
     font-weight: 500;
 }
@@ -312,7 +317,7 @@ color: #707070;
     text-decoration: none;
 
 }
-.submit:hover {
+.submit-button:hover {
     background-color: rgb(120, 291, 254, 2);
     cursor: pointer;
     
@@ -332,26 +337,25 @@ footer {
     flex-basis: content;
     text-align: center;
     vertical-align: top;
-    border: 0px rgba(0, 0, 0, 0.12);
+    border: 0px rgb(136, 128, 128);
     border-radius: 30px;
     padding: 5px 60px;
     text-decoration: none;
-    background: rgba(0, 0, 0, 0.12);
+    background: rgb(136, 128, 128);
     font-weight: 500;
-    text-decoration: none;
     margin: 10px;
 }
 
 .submit-box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 100px;
-    background-color: black;
+    margin-top: 100px; 
+    background-image: url(../img/black-fon.jpg);
     background-size: cover;
+    grid-template-columns: 1fr 1fr;
 }
 .submit-box-text {
     color: var(--brand-color);
-    padding: 30px;
+    padding: 50px;
     font-size: 30px;
 }
 .first-sentense {
