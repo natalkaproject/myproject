@@ -1,5 +1,5 @@
 const productsJSON = 
-[
+`[
     {"id": "1",
     "image": "space-photo.jpg",
     "title":"Space",
@@ -18,7 +18,7 @@ const productsJSON =
     "description":"Capacity up to 80 people",
     "action": "Book this hall"
     },
-];
+]``;
 
 function renderProducts(products) {
     const productsContainer = document.querySelector('.product-list');

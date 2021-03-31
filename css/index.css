@@ -15,6 +15,14 @@ body {
 .navbar-light .navbar-nav .nav-link {
     padding-left: 80px;
 }
+
+@media (min-width: 610px) {
+    
+    header nav footer{
+        display: flex;
+    }
+
+}
 header .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.01), 
     rgba(0, 0, 0, 0.55)),url(../img/main-photo.jpg);
@@ -75,6 +83,13 @@ header .banner h3 {
     background-color: white;
     cursor: pointer;
     color: var(--main-color);
+}
+
+@media (min-width: 640px) {
+    .icons-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 main {
     font-family: 'Open Sans', sans-serif;
@@ -252,7 +267,7 @@ color: #707070;
     background-color: rgb(247, 247, 247);
 }
 .carousel-item img {
-    margin: 40px 10px 40px 550px;
+    margin: 40px 10px 40px 500px;
     width: 18%!important;
     border-radius: 60%;
 
@@ -268,38 +283,36 @@ color: #707070;
     padding-right: 80px;
 }
 input {
-    background-color: rgb(136, 128, 128);
-    border-color: rgb(136, 128, 128);
-}
-input .placeholder{
-    color: white;
+    background-color: rgb(209, 206, 206);
+    border-color: rgb(209, 206, 206);
+    outline: none;
 }
 .namebutton {
     text-align: left;
     vertical-align: top;
-    border: 0px rgb(136, 128, 128);
+    border: 0px rgb(209, 206, 206);
     border-radius: 30px;
     padding: 5px 50px;
-    background: rgb(136, 128, 128);
+    background: rgb(209, 206, 206);
     font-weight: 500;
 }
 .phone-number-button {
     text-align: left;
     vertical-align: top;
-    border: 0px rgb(136, 128, 128);
+    border: 0px rgb(209, 206, 206);
     border-radius: 30px;
     padding: 5px 50px;
-    background: rgb(136, 128, 128);
+    background: rgb(209, 206, 206);
     color: var(--main-color);
     font-weight: 500;
 }
 .event-button {
     text-align: left;
     vertical-align: top;
-    border: 0px rgb(136, 128, 128);
+    border: 0px rgb(209, 206, 206);
     border-radius: 30px;
     padding: 5px 50px;
-    background:  rgb(136, 128, 128);
+    background:  rgb(209, 206, 206);
     color: var(--main-color);
     font-weight: 500;
 }
@@ -337,11 +350,11 @@ footer {
     flex-basis: content;
     text-align: center;
     vertical-align: top;
-    border: 0px rgb(136, 128, 128);
+    border: 0px rgb(209, 206, 206);
     border-radius: 30px;
     padding: 5px 60px;
     text-decoration: none;
-    background: rgb(136, 128, 128);
+    background: rgb(209, 206, 206);
     font-weight: 500;
     margin: 10px;
 }
